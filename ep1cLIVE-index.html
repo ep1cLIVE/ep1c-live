@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ep1cLIVE — Stream, Code, Create</title>
+<link rel="stylesheet" href="ep1cLIVE-style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="logo">ep1c<span>LIVE</span></div>
+  <nav>
+    <a href="#live">Live</a>
+    <a href="#socials">Socials</a>
+    <a href="#mods">Mod Team</a>
+    <a href="#portfolio">Portfolio</a>
+    <a href="#store">Store</a>
+    <a href="#business">Business</a>
+  </nav>
+</header>
+
+<!-- LIVE STATUS -->
+<section id="live" class="section live-section">
+  <div class="live-card">
+    <div class="status-row">
+      <span id="statusDot" class="status-dot offline"></span>
+      <span id="statusText">Checking status…</span>
+    </div>
+    <h1>ep1cLIVE</h1>
+    <p class="tagline">Programming • Stream Production • Overlay Design</p>
+    <div class="embed-wrapper">
+      <iframe
+        src="https://player.twitch.tv/?channel=ep1clive&parent=example.com&muted=true"
+        height="480"
+        width="100%"
+        allowfullscreen>
+      </iframe>
+    </div>
+    <a class="cta-btn" href="https://twitch.tv/ep1clive" target="_blank" rel="noopener">Watch on Twitch</a>
+  </div>
+</section>
+
+<!-- SOCIALS -->
+<section id="socials" class="section">
+  <h2>Find Me Everywhere</h2>
+  <div class="social-grid">
+    <a class="social-card twitch" href="#" target="_blank">Twitch</a>
+    <a class="social-card youtube" href="#" target="_blank">YouTube</a>
+    <a class="social-card x" href="#" target="_blank">X / Twitter</a>
+    <a class="social-card discord" href="#" target="_blank">Discord</a>
+    <a class="social-card tiktok" href="#" target="_blank">TikTok</a>
+    <a class="social-card github" href="#" target="_blank">GitHub</a>
+  </div>
+</section>
+
+<!-- MODERATED STREAMERS -->
+<section id="mods" class="section alt">
+  <h2>Streamers I Moderate</h2>
+  <p class="section-sub">Channels where I help keep chat clean and build custom tools.</p>
+  <div class="mod-grid">
+    <div class="mod-card">
+      <div class="mod-avatar">S1</div>
+      <h3>StreamerOne</h3>
+      <p>Chat mod & bot commands</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-avatar">S2</div>
+      <h3>StreamerTwo</h3>
+      <p>Overlay maintenance</p>
+    </div>
+    <div class="mod-card">
+      <div class="mod-avatar">S3</div>
+      <h3>StreamerThree</h3>
+      <p>Fossabot commands & alerts</p>
+    </div>
+  </div>
+</section>
+
+<!-- PORTFOLIO -->
+<section id="portfolio" class="section">
+  <h2>Portfolio</h2>
+  <p class="section-sub">Overlays, widgets and tools built for creators.</p>
+  <div class="portfolio-grid">
+    <div class="portfolio-card">
+      <div class="thumb thumb-1"></div>
+      <h3>Aurora Overlay Pack</h3>
+      <p>Animated browser-source overlay with alerts, chat box and goal bars.</p>
+    </div>
+    <div class="portfolio-card">
+      <div class="thumb thumb-2"></div>
+      <h3>Custom Fossabot Command Suite</h3>
+      <p>Interactive chat commands with API-driven responses.</p>
+    </div>
+    <div class="portfolio-card">
+      <div class="thumb thumb-3"></div>
+      <h3>Arduino Stream Deck</h3>
+      <p>Physical Wio Terminal controller for scene switching.</p>
+    </div>
+    <div class="portfolio-card">
+      <div class="thumb thumb-4"></div>
+      <h3>Pogly Widget Set</h3>
+      <p>Custom animated widgets synced with stream events.</p>
+    </div>
+  </div>
+</section>
+
+<!-- MERCH STORE -->
+<section id="store" class="section alt">
+  <h2>Merch Store</h2>
+  <div class="store-grid">
+    <div class="product-card">
+      <div class="product-img p1"></div>
+      <h3>ep1cLIVE Logo Tee</h3>
+      <p class="price">$24.99</p>
+      <button class="buy-btn">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <div class="product-img p2"></div>
+      <h3>Overlay Pack Sticker Set</h3>
+      <p class="price">$8.99</p>
+      <button class="buy-btn">Add to Cart</button>
+    </div>
+    <div class="product-card">
+      <div class="product-img p3"></div>
+      <h3>ep1cLIVE Hoodie</h3>
+      <p class="price">$49.99</p>
+      <button class="buy-btn">Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<!-- BUSINESS -->
+<section id="business" class="section">
+  <h2>Business Inquiries</h2>
+  <p class="section-sub">Available for overlay commissions, chatbot integrations, and stream tech consulting.</p>
+  <form class="business-form" id="bizForm">
+    <input type="text" placeholder="Your Name" required>
+    <input type="email" placeholder="Your Email" required>
+    <select required>
+      <option value="" disabled selected>Select Service</option>
+      <option>Overlay Design</option>
+      <option>Chatbot / API Integration</option>
+      <option>Stream Setup Consulting</option>
+      <option>Sponsorship / Partnership</option>
+      <option>Other</option>
+    </select>
+    <textarea placeholder="Tell me about your project..." rows="5" required></textarea>
+    <button type="submit">Send Inquiry</button>
+  </form>
+</section>
+
+<footer>
+  <p>&copy; 2026 ep1cLIVE. Built with code, coffee and chat commands.</p>
+</footer>
+
+<script src="ep1cLIVE-script.js"></script>
+</body>
+</html>
